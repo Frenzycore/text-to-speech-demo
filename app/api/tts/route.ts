@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 const TTS_BASE_URL = process.env.TTS_API_BASE_URL || 'https://text-to-speech.ornzora.eu.cc'
-const TTS_API_KEY  = process.env.TTS_API_KEY      || 'core'
+const TTS_API_KEY  = process.env.TTS_API_KEY    
 
 export async function POST(request: NextRequest) {
   try {
